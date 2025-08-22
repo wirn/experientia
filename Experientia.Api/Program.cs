@@ -5,24 +5,21 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Controllers + Swagger
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// EF Core (SQL Server)
 var cs = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<AppDbContext>(o =>
     o.UseSqlServer(cs, sql => sql.EnableRetryOnFailure()));
 
-// ASP.NET Identity
 builder.Services
     .AddIdentityCore<AppUser>(o =>
     {
         o.User.RequireUniqueEmail = true;
-        // o.Password.RequiredLength = 6; // valfritt
+        o.Password.RequiredLength = 4;
     })
-    .AddRoles<IdentityRole<long>>()                 // valfritt
+    .AddRoles<IdentityRole<long>>()
     .AddEntityFrameworkStores<AppDbContext>();
 
 var app = builder.Build();
@@ -34,7 +31,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-// app.UseAuthentication(); // aktiveras när du lägger till JWT/cookies
+// Auth lägger vi på i ett senare steg när du vill logga in på riktigt
+// app.UseAuthentication();
 // app.UseAuthorization();
 
 app.MapControllers();

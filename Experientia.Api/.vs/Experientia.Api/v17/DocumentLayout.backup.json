@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\EricBj\u00F6rklund\\Desktop\\exrementera\\dotnet\\experientia\\Experientia.Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F9633CE2-37DC-E13E-660A-0B3FA960F0F1}|Experientia.Api.csproj|c:\\users\\ericbj\u00F6rklund\\desktop\\exrementera\\dotnet\\experientia\\experientia.api\\controllers\\jobscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9633CE2-37DC-E13E-660A-0B3FA960F0F1}|Experientia.Api.csproj|solutionrelative:controllers\\jobscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F9633CE2-37DC-E13E-660A-0B3FA960F0F1}|Experientia.Api.csproj|c:\\users\\ericbj\u00F6rklund\\desktop\\exrementera\\dotnet\\experientia\\experientia.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9633CE2-37DC-E13E-660A-0B3FA960F0F1}|Experientia.Api.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9633CE2-37DC-E13E-660A-0B3FA960F0F1}|Experientia.Api.csproj|c:\\users\\ericbj\u00F6rklund\\desktop\\exrementera\\dotnet\\experientia\\experientia.api\\models\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9633CE2-37DC-E13E-660A-0B3FA960F0F1}|Experientia.Api.csproj|solutionrelative:models\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9633CE2-37DC-E13E-660A-0B3FA960F0F1}|Experientia.Api.csproj|c:\\users\\ericbj\u00F6rklund\\desktop\\exrementera\\dotnet\\experientia\\experientia.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9633CE2-37DC-E13E-660A-0B3FA960F0F1}|Experientia.Api.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F9633CE2-37DC-E13E-660A-0B3FA960F0F1}|Experientia.Api.csproj|c:\\users\\ericbj\u00F6rklund\\desktop\\exrementera\\dotnet\\experientia\\experientia.api\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9633CE2-37DC-E13E-660A-0B3FA960F0F1}|Experientia.Api.csproj|solutionrelative:models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F9633CE2-37DC-E13E-660A-0B3FA960F0F1}|Experientia.Api.csproj|c:\\users\\ericbj\u00F6rklund\\desktop\\exrementera\\dotnet\\experientia\\experientia.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,18 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F9633CE2-37DC-E13E-660A-0B3FA960F0F1}|Experientia.Api.csproj|c:\\users\\ericbj\u00F6rklund\\desktop\\exrementera\\dotnet\\experientia\\experientia.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F9633CE2-37DC-E13E-660A-0B3FA960F0F1}|Experientia.Api.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9633CE2-37DC-E13E-660A-0B3FA960F0F1}|Experientia.Api.csproj|c:\\users\\ericbj\u00F6rklund\\desktop\\exrementera\\dotnet\\experientia\\experientia.api\\models\\technique.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9633CE2-37DC-E13E-660A-0B3FA960F0F1}|Experientia.Api.csproj|solutionrelative:models\\technique.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9633CE2-37DC-E13E-660A-0B3FA960F0F1}|Experientia.Api.csproj|c:\\users\\ericbj\u00F6rklund\\desktop\\exrementera\\dotnet\\experientia\\experientia.api\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9633CE2-37DC-E13E-660A-0B3FA960F0F1}|Experientia.Api.csproj|solutionrelative:models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EricBj\u00F6rklund\\Desktop\\exrementera\\dotnet\\experientia\\Experientia.Api\\Migrations\\AppDbContextModelSnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\AppDbContextModelSnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,127 +25,59 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 78,
-          "SelectedChildIndex": 6,
+          "DockedWidth": 95,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\EricBj\u00F6rklund\\Desktop\\exrementera\\dotnet\\experientia\\Experientia.Api\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\EricBj\u00F6rklund\\Desktop\\exrementera\\dotnet\\experientia\\Experientia.Api\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\EricBj\u00F6rklund\\Desktop\\exrementera\\dotnet\\experientia\\Experientia.Api\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\EricBj\u00F6rklund\\Desktop\\exrementera\\dotnet\\experientia\\Experientia.Api\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAuwDwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T09:33:47.421Z",
+              "WhenOpened": "2025-08-22T17:54:01.724Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AppDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\EricBj\u00F6rklund\\Desktop\\exrementera\\dotnet\\experientia\\Experientia.Api\\Migrations\\AppDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Migrations\\AppDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\EricBj\u00F6rklund\\Desktop\\exrementera\\dotnet\\experientia\\Experientia.Api\\Migrations\\AppDbContextModelSnapshot.cs",
-              "RelativeToolTip": "Migrations\\AppDbContextModelSnapshot.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T11:22:49.511Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\EricBj\u00F6rklund\\Desktop\\exrementera\\dotnet\\experientia\\Experientia.Api\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\EricBj\u00F6rklund\\Desktop\\exrementera\\dotnet\\experientia\\Experientia.Api\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T08:27:10.028Z",
+              "WhenOpened": "2025-08-22T17:51:25.665Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Technique.cs",
-              "DocumentMoniker": "C:\\Users\\EricBj\u00F6rklund\\Desktop\\exrementera\\dotnet\\experientia\\Experientia.Api\\Models\\Technique.cs",
-              "RelativeDocumentMoniker": "Models\\Technique.cs",
-              "ToolTip": "C:\\Users\\EricBj\u00F6rklund\\Desktop\\exrementera\\dotnet\\experientia\\Experientia.Api\\Models\\Technique.cs",
-              "RelativeToolTip": "Models\\Technique.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAcwA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T14:28:03.78Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "JobsController.cs",
-              "DocumentMoniker": "C:\\Users\\EricBj\u00F6rklund\\Desktop\\exrementera\\dotnet\\experientia\\Experientia.Api\\Controllers\\JobsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\JobsController.cs",
-              "ToolTip": "C:\\Users\\EricBj\u00F6rklund\\Desktop\\exrementera\\dotnet\\experientia\\Experientia.Api\\Controllers\\JobsController.cs",
-              "RelativeToolTip": "Controllers\\JobsController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAmwFEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T11:23:45.293Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\EricBj\u00F6rklund\\Desktop\\exrementera\\dotnet\\experientia\\Experientia.Api\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\EricBj\u00F6rklund\\Desktop\\exrementera\\dotnet\\experientia\\Experientia.Api\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T11:55:45.517Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 78,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AppUser.cs",
-              "DocumentMoniker": "C:\\Users\\EricBj\u00F6rklund\\Desktop\\exrementera\\dotnet\\experientia\\Experientia.Api\\Models\\AppUser.cs",
-              "RelativeDocumentMoniker": "Models\\AppUser.cs",
-              "ToolTip": "C:\\Users\\EricBj\u00F6rklund\\Desktop\\exrementera\\dotnet\\experientia\\Experientia.Api\\Models\\AppUser.cs",
-              "RelativeToolTip": "Models\\AppUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T11:54:58.976Z",
+              "WhenOpened": "2025-08-22T17:33:29.273Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Job.cs",
-              "DocumentMoniker": "C:\\Users\\EricBj\u00F6rklund\\Desktop\\exrementera\\dotnet\\experientia\\Experientia.Api\\Models\\Job.cs",
-              "RelativeDocumentMoniker": "Models\\Job.cs",
-              "ToolTip": "C:\\Users\\EricBj\u00F6rklund\\Desktop\\exrementera\\dotnet\\experientia\\Experientia.Api\\Models\\Job.cs",
-              "RelativeToolTip": "Models\\Job.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\EricBj\u00F6rklund\\Desktop\\exrementera\\dotnet\\experientia\\Experientia.Api\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "Models\\AppUser.cs",
+              "ToolTip": "C:\\Users\\EricBj\u00F6rklund\\Desktop\\exrementera\\dotnet\\experientia\\Experientia.Api\\Models\\AppUser.cs",
+              "RelativeToolTip": "Models\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T07:33:01.294Z",
+              "WhenOpened": "2025-08-22T17:25:41.979Z",
               "EditorCaption": ""
             }
           ]
