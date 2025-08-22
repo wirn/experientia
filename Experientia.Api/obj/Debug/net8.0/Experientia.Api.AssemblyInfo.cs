@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Experientia.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f53c8bd50ee84233e82b24446f3387e930f258cb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7da5066ac0c1e52a493f3e1ba0769730d4980bd5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Experientia.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Experientia.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
