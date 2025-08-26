@@ -171,3 +171,4 @@ C:\Users\EricBjörklund\Desktop\exrementera\dotnet\experientia\Experientia.Api\o
 C:\Users\EricBjörklund\Desktop\exrementera\dotnet\experientia\Experientia.Api\obj\Debug\net8.0\ref\Experientia.Api.dll
 C:\Users\EricBjörklund\Desktop\exrementera\dotnet\experientia\Experientia.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\EricBjörklund\Desktop\exrementera\dotnet\experientia\Experientia.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\EricBjörklund\Desktop\exrementera\dotnet\experientia\Experientia.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

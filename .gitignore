@@ -1,1 +1,27 @@
-"bin/\nobj/\n**/*.user\n**/*.suo\nnode_modules/" 
+# build
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / VS Code
+.idea/
+.vscode/
+
+# nuget artefakter
+**/*.nupkg
+**/*.snupkg
+
+# logs
+*.log
+
+# lokala hemligheter (om du använder det)
+appsettings.*.local.json
+
+# node
+node_modules/

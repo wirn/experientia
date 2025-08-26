@@ -5,6 +5,80 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/Auth/register": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Experientia.Api.Controllers.AuthController.RegisterDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Experientia.Api.Controllers.AuthController.RegisterDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Experientia.Api.Controllers.AuthController.RegisterDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Auth/login": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Experientia.Api.Controllers.AuthController.LoginDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Experientia.Api.Controllers.AuthController.LoginDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Experientia.Api.Controllers.AuthController.LoginDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Auth/me": {
+      "get": {
+        "tags": [
+          "Auth"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Jobs": {
       "get": {
         "tags": [
@@ -18,7 +92,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/JobRead"
+                    "$ref": "#/components/schemas/Experientia.Api.Controllers.JobsController.JobRead"
                   }
                 }
               },
@@ -26,7 +100,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/JobRead"
+                    "$ref": "#/components/schemas/Experientia.Api.Controllers.JobsController.JobRead"
                   }
                 }
               },
@@ -34,7 +108,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/JobRead"
+                    "$ref": "#/components/schemas/Experientia.Api.Controllers.JobsController.JobRead"
                   }
                 }
               }
@@ -50,17 +124,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/JobUpsertDto"
+                "$ref": "#/components/schemas/Experientia.Api.Models.JobUpsertDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/JobUpsertDto"
+                "$ref": "#/components/schemas/Experientia.Api.Models.JobUpsertDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/JobUpsertDto"
+                "$ref": "#/components/schemas/Experientia.Api.Models.JobUpsertDto"
               }
             }
           }
@@ -71,17 +145,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/JobRead"
+                  "$ref": "#/components/schemas/Experientia.Api.Controllers.JobsController.JobRead"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/JobRead"
+                  "$ref": "#/components/schemas/Experientia.Api.Controllers.JobsController.JobRead"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/JobRead"
+                  "$ref": "#/components/schemas/Experientia.Api.Controllers.JobsController.JobRead"
                 }
               }
             }
@@ -111,17 +185,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/JobRead"
+                  "$ref": "#/components/schemas/Experientia.Api.Controllers.JobsController.JobRead"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/JobRead"
+                  "$ref": "#/components/schemas/Experientia.Api.Controllers.JobsController.JobRead"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/JobRead"
+                  "$ref": "#/components/schemas/Experientia.Api.Controllers.JobsController.JobRead"
                 }
               }
             }
@@ -147,17 +221,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/JobUpsertDto"
+                "$ref": "#/components/schemas/Experientia.Api.Models.JobUpsertDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/JobUpsertDto"
+                "$ref": "#/components/schemas/Experientia.Api.Models.JobUpsertDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/JobUpsertDto"
+                "$ref": "#/components/schemas/Experientia.Api.Models.JobUpsertDto"
               }
             }
           }
@@ -214,7 +288,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/JobRead"
+                    "$ref": "#/components/schemas/Experientia.Api.Controllers.JobsController.JobRead"
                   }
                 }
               },
@@ -222,7 +296,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/JobRead"
+                    "$ref": "#/components/schemas/Experientia.Api.Controllers.JobsController.JobRead"
                   }
                 }
               },
@@ -230,7 +304,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/JobRead"
+                    "$ref": "#/components/schemas/Experientia.Api.Controllers.JobsController.JobRead"
                   }
                 }
               }
@@ -252,7 +326,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Technique"
+                    "$ref": "#/components/schemas/Experientia.Api.Models.Technique"
                   }
                 }
               },
@@ -260,7 +334,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Technique"
+                    "$ref": "#/components/schemas/Experientia.Api.Models.Technique"
                   }
                 }
               },
@@ -268,7 +342,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Technique"
+                    "$ref": "#/components/schemas/Experientia.Api.Models.Technique"
                   }
                 }
               }
@@ -284,17 +358,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Technique"
+                "$ref": "#/components/schemas/Experientia.Api.Models.Technique"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Technique"
+                "$ref": "#/components/schemas/Experientia.Api.Models.Technique"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Technique"
+                "$ref": "#/components/schemas/Experientia.Api.Models.Technique"
               }
             }
           }
@@ -305,17 +379,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Technique"
+                  "$ref": "#/components/schemas/Experientia.Api.Models.Technique"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Technique"
+                  "$ref": "#/components/schemas/Experientia.Api.Models.Technique"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Technique"
+                  "$ref": "#/components/schemas/Experientia.Api.Models.Technique"
                 }
               }
             }
@@ -345,17 +419,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Technique"
+                  "$ref": "#/components/schemas/Experientia.Api.Models.Technique"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Technique"
+                  "$ref": "#/components/schemas/Experientia.Api.Models.Technique"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Technique"
+                  "$ref": "#/components/schemas/Experientia.Api.Models.Technique"
                 }
               }
             }
@@ -381,17 +455,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Technique"
+                "$ref": "#/components/schemas/Experientia.Api.Models.Technique"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Technique"
+                "$ref": "#/components/schemas/Experientia.Api.Models.Technique"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Technique"
+                "$ref": "#/components/schemas/Experientia.Api.Models.Technique"
               }
             }
           }
@@ -433,17 +507,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/RegisterDto"
+                "$ref": "#/components/schemas/Experientia.Api.Controllers.UsersController.RegisterDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/RegisterDto"
+                "$ref": "#/components/schemas/Experientia.Api.Controllers.UsersController.RegisterDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/RegisterDto"
+                "$ref": "#/components/schemas/Experientia.Api.Controllers.UsersController.RegisterDto"
               }
             }
           }
@@ -508,17 +582,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/UpdateUserDto"
+                "$ref": "#/components/schemas/Experientia.Api.Controllers.UsersController.UpdateUserDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/UpdateUserDto"
+                "$ref": "#/components/schemas/Experientia.Api.Controllers.UsersController.UpdateUserDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/UpdateUserDto"
+                "$ref": "#/components/schemas/Experientia.Api.Controllers.UsersController.UpdateUserDto"
               }
             }
           }
@@ -554,7 +628,39 @@
   },
   "components": {
     "schemas": {
-      "JobRead": {
+      "Experientia.Api.Controllers.AuthController.LoginDto": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Experientia.Api.Controllers.AuthController.RegisterDto": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "fullName": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Experientia.Api.Controllers.JobsController.JobRead": {
         "type": "object",
         "properties": {
           "id": {
@@ -589,14 +695,60 @@
           "techniques": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/TechRead"
+              "$ref": "#/components/schemas/Experientia.Api.Controllers.JobsController.TechRead"
             },
             "nullable": true
           }
         },
         "additionalProperties": false
       },
-      "JobUpsertDto": {
+      "Experientia.Api.Controllers.JobsController.TechRead": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Experientia.Api.Controllers.UsersController.RegisterDto": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          },
+          "fullName": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Experientia.Api.Controllers.UsersController.UpdateUserDto": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "fullName": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Experientia.Api.Models.JobUpsertDto": {
         "type": "object",
         "properties": {
           "userId": {
@@ -635,25 +787,7 @@
         },
         "additionalProperties": false
       },
-      "RegisterDto": {
-        "type": "object",
-        "properties": {
-          "email": {
-            "type": "string",
-            "nullable": true
-          },
-          "password": {
-            "type": "string",
-            "nullable": true
-          },
-          "fullName": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "TechRead": {
+      "Experientia.Api.Models.Technique": {
         "type": "object",
         "properties": {
           "id": {
@@ -661,34 +795,6 @@
             "format": "int32"
           },
           "name": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "Technique": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "name": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "UpdateUserDto": {
-        "type": "object",
-        "properties": {
-          "email": {
-            "type": "string",
-            "nullable": true
-          },
-          "fullName": {
             "type": "string",
             "nullable": true
           }
