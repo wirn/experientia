@@ -23,7 +23,7 @@ export default function Login() {
   async function onSubmit(data: FormData) {
     try {
       await login(data.email, data.password);
-      nav("/dashboard"); // eller dit du vill
+      nav("/");
     } catch (e: unknown) {
       // Axios fel kan komma som string eller objekt; simpla fallback:
       const msg = (e as any)?.response?.data ?? "Login failed";
@@ -34,30 +34,35 @@ export default function Login() {
   }
 
   return (
-    <form
-      onSubmit={handleSubmit(onSubmit)}
-      className="container"
-      style={{ maxWidth: 420 }}
-    >
-      <h2 className="mt-4 mb-3">Login</h2>
-      <div className="mb-3">
-        <label className="form-label">Email</label>
-        <input className="form-control" {...register("email")} />
-        <div className="text-danger">{errors.email?.message}</div>
+    <div>
+      <form
+        onSubmit={handleSubmit(onSubmit)}
+        style={{ maxWidth: 420 }}
+        className="mb-3"
+      >
+        <div className="mb-3">
+          <label htmlFor="email">Email</label>
+          <input className="form-control" {...register("email")} id="email" />
+          <div className="text-danger">{errors.email?.message}</div>
+        </div>
+        <div className="mb-3">
+          <label className="form-label">Password</label>
+          <input
+            type="password"
+            className="form-control"
+            {...register("password")}
+          />
+          <div className="text-danger">{errors.password?.message}</div>
+        </div>
+        <button disabled={isSubmitting} className="btn btn-primary">
+          Login
+        </button>
+        <div className="text-danger mt-2">{errors.root?.message}</div>
+      </form>
+
+      <div>
+        Saknar du användare? <a href="/register">Registera här</a>
       </div>
-      <div className="mb-3">
-        <label className="form-label">Password</label>
-        <input
-          type="password"
-          className="form-control"
-          {...register("password")}
-        />
-        <div className="text-danger">{errors.password?.message}</div>
-      </div>
-      <button disabled={isSubmitting} className="btn btn-primary">
-        Login
-      </button>
-      <div className="text-danger mt-2">{errors.root?.message}</div>
-    </form>
+    </div>
   );
 }

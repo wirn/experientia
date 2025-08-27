@@ -1,0 +1,66 @@
+@use "sass:map";
+
+$heading-breakpoint: 1200px;
+
+$headings: (
+  h1: (
+    fluid: calc(var(--bs-body-font-size) * 2),
+    max: calc(var(--bs-body-font-size) * 2.5),
+  ),
+  h2: (
+    fluid: calc(var(--bs-body-font-size) * 1.75),
+    max: calc(var(--bs-body-font-size) * 2),
+  ),
+  h3: (
+    fluid: calc(var(--bs-body-font-size) * 1.5),
+    max: calc(var(--bs-body-font-size) * 1.75),
+  ),
+  h4: (
+    fluid: calc(var(--bs-body-font-size) * 1.25),
+    max: calc(var(--bs-body-font-size) * 1.5),
+  ),
+  h5: (
+    fixed: calc(var(--bs-body-font-size) * 1.125),
+  ),
+  h6: (
+    fixed: var(--bs-body-font-size),
+  ),
+);
+
+@mixin heading-base {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--bs-body-color);
+}
+
+@mixin heading-size($cfg) {
+  @if map.has-key($cfg, fixed) {
+    font-size: map.get($cfg, fixed);
+  } @else {
+    font-size: map.get($cfg, fluid);
+    @media (min-width: $heading-breakpoint) {
+      font-size: map.get($cfg, max);
+    }
+  }
+}
+
+@each $tag, $cfg in $headings {
+  #{$tag},
+  .#{$tag} {
+    @include heading-base;
+    @include heading-size($cfg);
+  }
+}
+
+.text {
+  &-danger {
+    color: var(--bs-danger);
+  }
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}

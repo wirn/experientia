@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\EricBj\u00F6rklund\\Desktop\\exrementera\\dotnet\\experientia\\Experientia.Api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F9633CE2-37DC-E13E-660A-0B3FA960F0F1}|Experientia.Api.csproj|c:\\users\\ericbj\u00F6rklund\\desktop\\exrementera\\dotnet\\experientia\\experientia.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9633CE2-37DC-E13E-660A-0B3FA960F0F1}|Experientia.Api.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F9633CE2-37DC-E13E-660A-0B3FA960F0F1}|Experientia.Api.csproj|c:\\users\\ericbj\u00F6rklund\\desktop\\exrementera\\dotnet\\experientia\\experientia.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F9633CE2-37DC-E13E-660A-0B3FA960F0F1}|Experientia.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F9633CE2-37DC-E13E-660A-0B3FA960F0F1}|Experientia.Api.csproj|c:\\users\\ericbj\u00F6rklund\\desktop\\exrementera\\dotnet\\experientia\\experientia.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F9633CE2-37DC-E13E-660A-0B3FA960F0F1}|Experientia.Api.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9633CE2-37DC-E13E-660A-0B3FA960F0F1}|Experientia.Api.csproj|c:\\users\\ericbj\u00F6rklund\\desktop\\exrementera\\dotnet\\experientia\\experientia.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9633CE2-37DC-E13E-660A-0B3FA960F0F1}|Experientia.Api.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F9633CE2-37DC-E13E-660A-0B3FA960F0F1}|Experientia.Api.csproj|c:\\users\\ericbj\u00F6rklund\\desktop\\exrementera\\dotnet\\experientia\\experientia.api\\controllers\\jobscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 95,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -69,25 +69,21 @@
               "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\EricBj\u00F6rklund\\Desktop\\exrementera\\dotnet\\experientia\\Experientia.Api\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\EricBj\u00F6rklund\\Desktop\\exrementera\\dotnet\\experientia\\Experientia.Api\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAUwAcAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCgAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-25T13:51:47.199Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\EricBj\u00F6rklund\\Desktop\\exrementera\\dotnet\\experientia\\Experientia.Api\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -95,8 +91,7 @@
               "RelativeToolTip": "appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-25T13:47:44.234Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-25T13:47:44.234Z"
             },
             {
               "$type": "Document",
@@ -108,18 +103,17 @@
               "RelativeToolTip": "Controllers\\JobsController.cs",
               "ViewState": "AgIAADsAAAAAAAAAAAAIwGMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T19:59:02.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T19:59:02.869Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\EricBj\u00F6rklund\\Desktop\\exrementera\\dotnet\\experientia\\Experientia.Api\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\EricBj\u00F6rklund\\Desktop\\exrementera\\dotnet\\experientia\\Experientia.Api\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwDAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-22T17:51:25.665Z",
               "EditorCaption": ""
@@ -134,8 +128,7 @@
               "RelativeToolTip": "Models\\JobTechnique.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T19:45:00.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T19:45:00.884Z"
             },
             {
               "$type": "Document",
@@ -147,8 +140,7 @@
               "RelativeToolTip": "Models\\Job.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAwwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T19:44:21.874Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T19:44:21.874Z"
             },
             {
               "$type": "Document",
@@ -160,8 +152,7 @@
               "RelativeToolTip": "Data\\AppDbContext.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAuwCcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T17:33:29.273Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T17:33:29.273Z"
             },
             {
               "$type": "Document",
@@ -173,8 +164,7 @@
               "RelativeToolTip": "Models\\JobUpsertDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T19:45:36.667Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T19:45:36.667Z"
             },
             {
               "$type": "Document",
@@ -186,8 +176,7 @@
               "RelativeToolTip": "Models\\AppUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T17:25:41.979Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T17:25:41.979Z"
             },
             {
               "$type": "Document",
@@ -199,8 +188,7 @@
               "RelativeToolTip": "Controllers\\UsersController.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAuwDwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T17:54:01.724Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T17:54:01.724Z"
             },
             {
               "$type": "Document",
@@ -212,8 +200,7 @@
               "RelativeToolTip": "Models\\Technique.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T18:24:10.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T18:24:10.705Z"
             },
             {
               "$type": "Document",
@@ -225,8 +212,11 @@
               "RelativeToolTip": "Controllers\\TechniquesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T18:26:39.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T18:26:39.794Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             }
           ]
         }

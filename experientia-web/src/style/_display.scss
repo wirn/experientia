@@ -1,0 +1,22 @@
+.d {
+  &-flex {
+    display: flex !important;
+  }
+  &-block {
+    display: block !important;
+  }
+  &-inline-block {
+    display: inline !important;
+  }
+  &-none {
+    display: none !important;
+  }
+}
+
+.justify-content-between {
+  justify-content: space-between !important;
+}
+
+.align-items-center {
+  align-items: center !important;
+}

@@ -1,0 +1,23 @@
+.navbarTop {
+  background: var(--raisin-black);
+  color: #fff;
+  padding: 1rem;
+  margin-bottom: 3rem;
+  h1 {
+    color: inherit;
+    font-weight: 400;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .username {
+    font-weight: bold;
+    color: #ff9800;
+  }
+}
+
+:global(.btn-link) {
+  color: white !important;
+}

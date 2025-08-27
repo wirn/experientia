@@ -1,0 +1,76 @@
+$spacers: (
+  0: 0,
+  1: 0.25rem,
+  2: 0.5rem,
+  3: 1rem,
+  4: 1.5rem,
+  5: 3rem,
+);
+
+$properties: (
+  m: margin,
+  p: padding,
+);
+
+@mixin apply-pair($prop, $a, $b, $val, $important: true) {
+  #{$prop}-#{$a}: $val #{if($important, !important, null)};
+  #{$prop}-#{$b}: $val #{if($important, !important, null)};
+}
+
+@mixin apply-single($prop, $side, $val, $important: true) {
+  #{$prop}-#{$side}: $val #{if($important, !important, null)};
+}
+
+@mixin generate-spacing($abbr, $prop) {
+  @each $k, $val in $spacers {
+    .#{$abbr}-#{$k} {
+      #{$prop}: $val !important;
+    }
+    .#{$abbr}x-#{$k} {
+      @include apply-pair($prop, left, right, $val);
+    }
+    .#{$abbr}y-#{$k} {
+      @include apply-pair($prop, top, bottom, $val);
+    }
+    .#{$abbr}t-#{$k} {
+      @include apply-single($prop, top, $val);
+    }
+    .#{$abbr}e-#{$k} {
+      @include apply-single($prop, right, $val);
+    }
+    .#{$abbr}b-#{$k} {
+      @include apply-single($prop, bottom, $val);
+    }
+    .#{$abbr}s-#{$k} {
+      @include apply-single($prop, left, $val);
+    }
+  }
+
+  @if $abbr == m {
+    .#{$abbr}-auto {
+      #{$prop}: auto !important;
+    }
+    .#{$abbr}x-auto {
+      @include apply-pair($prop, left, right, auto);
+    }
+    .#{$abbr}y-auto {
+      @include apply-pair($prop, top, bottom, auto);
+    }
+    .#{$abbr}t-auto {
+      @include apply-single($prop, top, auto);
+    }
+    .#{$abbr}e-auto {
+      @include apply-single($prop, right, auto);
+    }
+    .#{$abbr}b-auto {
+      @include apply-single($prop, bottom, auto);
+    }
+    .#{$abbr}s-auto {
+      @include apply-single($prop, left, auto);
+    }
+  }
+}
+
+@each $abbr, $prop in $properties {
+  @include generate-spacing($abbr, $prop);
+}
